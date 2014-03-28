@@ -14,7 +14,8 @@ To use this program:
 
 		./a.out <input_file_name> <probing_option> <load_factor>
 
-		where:	<input_file_name>  = idata (or the input file of your choice)
+		where:	<input_file_name>  = idata (or the input file of your choice,
+						    one integer per line. )
 			<probing_option>   = 0 (for linear probing)
 					     1 (for quadratic probing)
 			<load_factor>	   = a floating point value between 0.1 and .99
