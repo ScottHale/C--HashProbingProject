@@ -1,0 +1,24 @@
+This program implements a hash table dynamically in order to test the efficiency of two 
+different algorithms for resolving collisions: linear probing , and quadratic probing. 
+
+To use this program:
+	1. Place lprobe1.cpp and idata in the directory of your choice.
+
+	2. Navigate to the directory in the terminal of your choice
+
+	3. Compile lprobe1.cpp using:
+
+			g++ lprobe1.cpp
+
+	3. Run the program with the following arguments:
+
+			./a.out <input_file_name> <probing_option> <load_factor>
+
+			where:	<input_file_name> 	= 	idata (or the input file of your choice)
+					<probing_option> 	=	0 (for linear probing)
+											1 (for quadratic probing)
+					<load_factor>		=	a floating point value between 0.1 and .99
+
+			An example command line execution would be:
+
+					./a.out idata 0 .5
